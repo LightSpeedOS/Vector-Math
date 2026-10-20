@@ -21,4 +21,9 @@ public:
 		isLocal = l;
 		pos = p;
 	}
+
+	string getName() const
+	{
+		return name;
+	}
 };
