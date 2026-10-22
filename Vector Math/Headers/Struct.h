@@ -27,3 +27,10 @@ public:
 		return name;
 	}
 };
+
+enum class Range
+{
+	CLOSE,
+	MEDIUM,
+	LONG_RANGE
+};
